@@ -1,0 +1,36 @@
+body{
+    background-image: url(./todocheck.jpg) ;
+    background-repeat: no-repeat;
+     background-size: cover;
+  }
+  
+  .full{
+    margin-left: 35%;
+    margin-top: 60px;
+    height: auto;
+    
+    position: absolute ;
+  
+  }
+  .todo {
+    border-top: 0.3px dotted white ;
+    border-radius: 5%;
+    border-block-style: 
+    opacity: 12%;
+    height: 10px;
+    cursor: pointer;
+    width: 169px;
+    font-size: 8px;
+    color: white;
+    background: rgba(9, 46, 128, 0.692) ;
+    
+  }
+  
+  .todo.active{
+    font-weight: bold;
+  }
+  
+  .todo.completed{
+    color: #999999 ;
+    text-decoration: line-through ;
+  }
